@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsAdminLoginLog;
 import com.pinkong.model.UmsAdminLoginLogExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsAdminLoginLogMapper {
     long countByExample(UmsAdminLoginLogExample example);

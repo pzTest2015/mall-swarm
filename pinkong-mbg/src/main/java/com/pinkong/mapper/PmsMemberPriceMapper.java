@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsMemberPrice;
 import com.pinkong.model.PmsMemberPriceExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsMemberPriceMapper {
     long countByExample(PmsMemberPriceExample example);

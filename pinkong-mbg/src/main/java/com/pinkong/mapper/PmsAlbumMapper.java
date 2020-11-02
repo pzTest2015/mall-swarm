@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsAlbum;
 import com.pinkong.model.PmsAlbumExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsAlbumMapper {
     long countByExample(PmsAlbumExample example);

@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.CmsSubjectProductRelation;
 import com.pinkong.model.CmsSubjectProductRelationExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CmsSubjectProductRelationMapper {
     long countByExample(CmsSubjectProductRelationExample example);

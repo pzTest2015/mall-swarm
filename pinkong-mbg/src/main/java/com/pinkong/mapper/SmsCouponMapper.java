@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.SmsCoupon;
 import com.pinkong.model.SmsCouponExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SmsCouponMapper {
     long countByExample(SmsCouponExample example);

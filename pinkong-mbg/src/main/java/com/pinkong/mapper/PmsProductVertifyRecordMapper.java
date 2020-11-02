@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsProductVertifyRecord;
 import com.pinkong.model.PmsProductVertifyRecordExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsProductVertifyRecordMapper {
     long countByExample(PmsProductVertifyRecordExample example);

@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.OmsCompanyAddress;
 import com.pinkong.model.OmsCompanyAddressExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OmsCompanyAddressMapper {
     long countByExample(OmsCompanyAddressExample example);

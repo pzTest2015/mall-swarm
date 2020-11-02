@@ -2,8 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsIntegrationChangeHistory;
 import com.pinkong.model.UmsIntegrationChangeHistoryExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsIntegrationChangeHistoryMapper {
     long countByExample(UmsIntegrationChangeHistoryExample example);

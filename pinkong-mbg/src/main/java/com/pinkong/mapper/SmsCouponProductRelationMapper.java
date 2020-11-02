@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.SmsCouponProductRelation;
 import com.pinkong.model.SmsCouponProductRelationExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SmsCouponProductRelationMapper {
     long countByExample(SmsCouponProductRelationExample example);

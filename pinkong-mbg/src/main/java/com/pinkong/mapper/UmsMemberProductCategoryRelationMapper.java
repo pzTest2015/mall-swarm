@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberProductCategoryRelation;
 import com.pinkong.model.UmsMemberProductCategoryRelationExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberProductCategoryRelationMapper {
     long countByExample(UmsMemberProductCategoryRelationExample example);

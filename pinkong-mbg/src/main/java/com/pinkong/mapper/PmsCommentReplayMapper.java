@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsCommentReplay;
 import com.pinkong.model.PmsCommentReplayExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsCommentReplayMapper {
     long countByExample(PmsCommentReplayExample example);

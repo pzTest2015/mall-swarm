@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.SmsHomeBrand;
 import com.pinkong.model.SmsHomeBrandExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SmsHomeBrandMapper {
     long countByExample(SmsHomeBrandExample example);

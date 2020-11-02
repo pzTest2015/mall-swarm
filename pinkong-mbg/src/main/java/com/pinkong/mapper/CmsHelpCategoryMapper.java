@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.CmsHelpCategory;
 import com.pinkong.model.CmsHelpCategoryExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CmsHelpCategoryMapper {
     long countByExample(CmsHelpCategoryExample example);

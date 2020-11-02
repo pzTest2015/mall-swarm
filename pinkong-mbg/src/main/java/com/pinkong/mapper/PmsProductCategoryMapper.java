@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsProductCategory;
 import com.pinkong.model.PmsProductCategoryExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsProductCategoryMapper {
     long countByExample(PmsProductCategoryExample example);

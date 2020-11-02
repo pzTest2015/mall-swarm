@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.CmsMemberReport;
 import com.pinkong.model.CmsMemberReportExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CmsMemberReportMapper {
     long countByExample(CmsMemberReportExample example);

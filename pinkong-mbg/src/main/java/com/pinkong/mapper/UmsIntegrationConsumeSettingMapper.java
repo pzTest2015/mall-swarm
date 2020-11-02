@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsIntegrationConsumeSetting;
 import com.pinkong.model.UmsIntegrationConsumeSettingExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsIntegrationConsumeSettingMapper {
     long countByExample(UmsIntegrationConsumeSettingExample example);

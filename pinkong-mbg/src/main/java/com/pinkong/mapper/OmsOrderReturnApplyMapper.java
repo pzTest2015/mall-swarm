@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.OmsOrderReturnApply;
 import com.pinkong.model.OmsOrderReturnApplyExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OmsOrderReturnApplyMapper {
     long countByExample(OmsOrderReturnApplyExample example);

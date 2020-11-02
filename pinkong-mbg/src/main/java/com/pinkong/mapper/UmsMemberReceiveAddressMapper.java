@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberReceiveAddress;
 import com.pinkong.model.UmsMemberReceiveAddressExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberReceiveAddressMapper {
     long countByExample(UmsMemberReceiveAddressExample example);

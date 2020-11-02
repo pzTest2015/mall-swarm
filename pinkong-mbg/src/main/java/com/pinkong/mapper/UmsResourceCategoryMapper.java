@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsResourceCategory;
 import com.pinkong.model.UmsResourceCategoryExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsResourceCategoryMapper {
     long countByExample(UmsResourceCategoryExample example);

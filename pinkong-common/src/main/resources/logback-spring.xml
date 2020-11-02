@@ -215,7 +215,7 @@
         <appender-ref ref="LOG_STASH_RECORD"/>
     </logger>
 
-    <logger name="com.macro.pinkong" level="DEBUG">
+    <logger name="com.pinkong" level="DEBUG">
         <appender-ref ref="LOG_STASH_BUSINESS"/>
     </logger>
 </configuration>

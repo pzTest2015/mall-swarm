@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsGrowthChangeHistory;
 import com.pinkong.model.UmsGrowthChangeHistoryExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsGrowthChangeHistoryMapper {
     long countByExample(UmsGrowthChangeHistoryExample example);

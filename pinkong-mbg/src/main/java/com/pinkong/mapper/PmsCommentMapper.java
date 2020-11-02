@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsComment;
 import com.pinkong.model.PmsCommentExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsCommentMapper {
     long countByExample(PmsCommentExample example);

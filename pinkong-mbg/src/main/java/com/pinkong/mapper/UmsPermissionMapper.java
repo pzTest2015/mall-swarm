@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsPermission;
 import com.pinkong.model.UmsPermissionExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsPermissionMapper {
     long countByExample(UmsPermissionExample example);

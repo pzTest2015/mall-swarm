@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsFeightTemplate;
 import com.pinkong.model.PmsFeightTemplateExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsFeightTemplateMapper {
     long countByExample(PmsFeightTemplateExample example);

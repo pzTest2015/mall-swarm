@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsProductAttributeValue;
 import com.pinkong.model.PmsProductAttributeValueExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsProductAttributeValueMapper {
     long countByExample(PmsProductAttributeValueExample example);

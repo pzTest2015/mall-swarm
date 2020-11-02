@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberLevel;
 import com.pinkong.model.UmsMemberLevelExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberLevelMapper {
     long countByExample(UmsMemberLevelExample example);

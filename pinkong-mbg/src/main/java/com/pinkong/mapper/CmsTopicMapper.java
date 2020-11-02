@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.CmsTopic;
 import com.pinkong.model.CmsTopicExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CmsTopicMapper {
     long countByExample(CmsTopicExample example);

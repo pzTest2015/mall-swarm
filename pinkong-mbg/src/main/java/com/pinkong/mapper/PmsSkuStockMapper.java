@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsSkuStock;
 import com.pinkong.model.PmsSkuStockExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsSkuStockMapper {
     long countByExample(PmsSkuStockExample example);

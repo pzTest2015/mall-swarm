@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.OmsOrderOperateHistory;
 import com.pinkong.model.OmsOrderOperateHistoryExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OmsOrderOperateHistoryMapper {
     long countByExample(OmsOrderOperateHistoryExample example);

@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberTask;
 import com.pinkong.model.UmsMemberTaskExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberTaskMapper {
     long countByExample(UmsMemberTaskExample example);

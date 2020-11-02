@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberStatisticsInfo;
 import com.pinkong.model.UmsMemberStatisticsInfoExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberStatisticsInfoMapper {
     long countByExample(UmsMemberStatisticsInfoExample example);

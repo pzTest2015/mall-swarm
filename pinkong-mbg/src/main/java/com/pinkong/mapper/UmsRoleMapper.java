@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsRole;
 import com.pinkong.model.UmsRoleExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsRoleMapper {
     long countByExample(UmsRoleExample example);

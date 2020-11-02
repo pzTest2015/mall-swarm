@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.SmsFlashPromotionLog;
 import com.pinkong.model.SmsFlashPromotionLogExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface SmsFlashPromotionLogMapper {
     long countByExample(SmsFlashPromotionLogExample example);

@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.UmsMemberRuleSetting;
 import com.pinkong.model.UmsMemberRuleSettingExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UmsMemberRuleSettingMapper {
     long countByExample(UmsMemberRuleSettingExample example);

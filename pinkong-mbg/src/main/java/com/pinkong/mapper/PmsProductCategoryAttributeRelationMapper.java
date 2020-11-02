@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsProductCategoryAttributeRelation;
 import com.pinkong.model.PmsProductCategoryAttributeRelationExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsProductCategoryAttributeRelationMapper {
     long countByExample(PmsProductCategoryAttributeRelationExample example);

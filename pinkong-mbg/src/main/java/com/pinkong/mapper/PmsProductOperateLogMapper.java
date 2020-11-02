@@ -2,9 +2,9 @@ package com.pinkong.mapper;
 
 import com.pinkong.model.PmsProductOperateLog;
 import com.pinkong.model.PmsProductOperateLogExample;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PmsProductOperateLogMapper {
     long countByExample(PmsProductOperateLogExample example);
