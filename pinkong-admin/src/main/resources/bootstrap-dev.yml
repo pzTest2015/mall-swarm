@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.10.193:8848
+      config:
+        server-addr: http://192.168.10.193:8848
+        file-extension: yaml
+logstash:
+  host: 192.168.10.193
