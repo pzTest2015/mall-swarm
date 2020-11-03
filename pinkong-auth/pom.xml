@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>pinkong-auth</name>
-    <description>pinkong-auth project for mall</description>
+    <description>pinkong-auth project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

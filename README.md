@@ -1,6 +1,6 @@
 
 ``` lua
-mall
+pinkong
 ├── pinkong-common -- 工具类及通用代码模块
 ├── pinkong-mbg -- MyBatisGenerator生成的数据库操作代码模块
 ├── pinkong-auth -- 基于Spring Security Oauth2的统一的认证中心

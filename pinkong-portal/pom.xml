@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mall</groupId>
+    <groupId>com.pinkong</groupId>
     <artifactId>pinkong-portal</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>pinkong-portal</name>
-    <description>pinkong-portal project for mall</description>
+    <description>pinkong-portal project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>pinkong-admin</name>
-    <description>pinkong-admin project for mall</description>
+    <description>pinkong-admin project for pinkong </description>
 
     <parent>
         <groupId>com.pinkong</groupId>

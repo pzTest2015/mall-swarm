@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>pinkong-mbg</name>
-    <description>pinkong-mbg project for mall</description>
+    <description>pinkong-mbg project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

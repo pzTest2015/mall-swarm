@@ -6,7 +6,7 @@
     <artifactId>pinkong-gateway</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>pinkong-gateway</name>
-    <description>pinkong-gateway project for mall</description>
+    <description>pinkong-gateway project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

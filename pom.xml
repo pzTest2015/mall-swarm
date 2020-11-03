@@ -103,13 +103,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--mall通用模块-->
+            <!--pinkong通用模块-->
             <dependency>
                 <groupId>com.pinkong</groupId>
                 <artifactId>pinkong-common</artifactId>
                 <version>${pinkong-common.version}</version>
             </dependency>
-            <!--mall中MBG生成模块-->
+            <!--pinkong中MBG生成模块-->
             <dependency>
                 <groupId>com.pinkong</groupId>
                 <artifactId>pinkong-mbg</artifactId>
@@ -234,7 +234,7 @@
                         <!--</execution>-->
                     <!--</executions>-->
                     <configuration>
-                        <imageName>mall/${project.artifactId}:${project.version}</imageName>
+                        <imageName>/${project.artifactId}:${project.version}</imageName>
                         <dockerHost>${docker.host}</dockerHost>
                         <baseImage>java:8</baseImage>
                         <entryPoint>["java", "-jar", "-Dspring.profiles.active=prod","/${project.build.finalName}.jar"]</entryPoint>

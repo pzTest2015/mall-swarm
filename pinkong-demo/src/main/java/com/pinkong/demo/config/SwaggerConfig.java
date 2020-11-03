@@ -16,7 +16,7 @@ public class SwaggerConfig extends BaseSwaggerConfig {
     @Override
     public SwaggerProperties swaggerProperties() {
         return SwaggerProperties.builder()
-                .apiBasePackage("com.pinkong.mall.demo.controller")
+                .apiBasePackage("com.pinkong.demo.controller")
                 .title("pinkong-demo系统")
                 .description("SpringCloud版本中的一些示例")
                 .contactName("pinkong")

@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>pinkong-demo</name>
-    <description>pinkong-demo project for mall</description>
+    <description>pinkong-demo project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

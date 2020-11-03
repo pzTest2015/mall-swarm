@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * Created by pinkong on 2019/4/8.
  */
 @Configuration
-@MapperScan("com.pinkong.mall.mapper")
+@MapperScan("com.pinkong.mapper")
 public class MyBatisConfig {
 }
