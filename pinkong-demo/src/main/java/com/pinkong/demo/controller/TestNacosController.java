@@ -34,6 +34,6 @@ public class TestNacosController {
     @RequestMapping(value = "/paramtest", method = RequestMethod.GET)
     @ResponseBody
     public CommonResult<String> paramtest() {
-        return CommonResult.success(paramtest);
+        return CommonResult.success(port+paramtest);
     }
 }

@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.pinkong</groupId>
-            <artifactId>pinkong-mbg</artifactId>
+            <artifactId>pinkong-base</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>

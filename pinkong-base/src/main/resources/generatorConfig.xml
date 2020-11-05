@@ -30,12 +30,12 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.pinkong.model" targetProject="pinkong-mbg\src\main\java"/>
+        <javaModelGenerator targetPackage="com.pinkong.model" targetProject="pinkong-base\src\main\java"/>
 
-        <sqlMapGenerator targetPackage="com.pinkong.mapper" targetProject="pinkong-mbg\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.pinkong.mapper" targetProject="pinkong-base\src\main\resources"/>
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.pinkong.mapper"
-                             targetProject="pinkong-mbg\src\main\java"/>
+                             targetProject="pinkong-base\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>

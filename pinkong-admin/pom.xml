@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>com.pinkong</groupId>
-            <artifactId>pinkong-mbg</artifactId>
+            <artifactId>pinkong-base</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -36,10 +36,6 @@
         <dependency>
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

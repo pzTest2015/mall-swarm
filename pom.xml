@@ -11,7 +11,7 @@
 
     <modules>
         <module>pinkong-common</module>
-        <module>pinkong-mbg</module>
+        <module>pinkong-base</module>
         <module>pinkong-demo</module>
         <module>pinkong-admin</module>
         <module>pinkong-search</module>
@@ -49,11 +49,10 @@
         <aliyun-oss.version>2.5.0</aliyun-oss.version>
         <logstash-logback.version>5.3</logstash-logback.version>
         <admin-starter-server.version>2.2.3</admin-starter-server.version>
-        <minio.version>7.1.0</minio.version>
         <knife4j.version>2.0.4</knife4j.version>
         <nimbus-jose-jwt.version>8.16</nimbus-jose-jwt.version>
         <pinkong-common.version>1.0-SNAPSHOT</pinkong-common.version>
-        <pinkong-mbg.version>1.0-SNAPSHOT</pinkong-mbg.version>
+        <pinkong-base.version>1.0-SNAPSHOT</pinkong-base.version>
     </properties>
 
     <dependencies>
@@ -109,11 +108,11 @@
                 <artifactId>pinkong-common</artifactId>
                 <version>${pinkong-common.version}</version>
             </dependency>
-            <!--pinkong中MBG生成模块-->
+            <!--pinkong中base生成模块-->
             <dependency>
                 <groupId>com.pinkong</groupId>
-                <artifactId>pinkong-mbg</artifactId>
-                <version>${pinkong-mbg.version}</version>
+                <artifactId>pinkong-base</artifactId>
+                <version>${pinkong-base.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
             <dependency>
@@ -203,12 +202,6 @@
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-server</artifactId>
                 <version>${admin-starter-server.version}</version>
-            </dependency>
-            <!--MinIO JAVA SDK-->
-            <dependency>
-                <groupId>io.minio</groupId>
-                <artifactId>minio</artifactId>
-                <version>${minio.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.pinkong</groupId>
-    <artifactId>pinkong-mbg</artifactId>
+    <artifactId>pinkong-base</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>pinkong-mbg</name>
-    <description>pinkong-mbg project for pinkong</description>
+    <name>pinkong-base</name>
+    <description>pinkong-base project for pinkong</description>
 
     <parent>
         <groupId>com.pinkong</groupId>

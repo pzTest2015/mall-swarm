@@ -8,7 +8,6 @@ import com.pinkong.common.exception.Asserts;
 import com.pinkong.common.service.RedisService;
 import com.pinkong.mapper.*;
 import com.pinkong.model.*;
-import com.pinkong.portal.component.CancelOrderSender;
 import com.pinkong.portal.dao.PortalOrderDao;
 import com.pinkong.portal.dao.PortalOrderItemDao;
 import com.pinkong.portal.dao.SmsCouponHistoryDao;
@@ -63,8 +62,7 @@ public class OmsPortalOrderServiceImpl implements OmsPortalOrderService {
     private OmsOrderSettingMapper orderSettingMapper;
     @Autowired
     private OmsOrderItemMapper orderItemMapper;
-    @Autowired
-    private CancelOrderSender cancelOrderSender;
+
 
     @Override
     public ConfirmOrderResult generateConfirmOrder(List<Long> cartIds) {
@@ -323,7 +321,7 @@ public class OmsPortalOrderServiceImpl implements OmsPortalOrderService {
         OmsOrderSetting orderSetting = orderSettingMapper.selectByPrimaryKey(1L);
         long delayTimes = orderSetting.getNormalOrderOvertime() * 60 * 1000;
         //发送延迟消息
-        cancelOrderSender.sendMessage(orderId, delayTimes);
+
     }
 
     @Override
