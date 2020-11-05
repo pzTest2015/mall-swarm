@@ -4,21 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pinkong</groupId>
-    <artifactId>pinkong-service</artifactId>
+    <groupId>com.jgj</groupId>
+    <artifactId>jgj-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>pinkong-common</module>
-        <module>pinkong-base</module>
-        <module>pinkong-demo</module>
-        <module>pinkong-admin</module>
-        <module>pinkong-search</module>
-        <module>pinkong-portal</module>
-        <module>pinkong-monitor</module>
-        <module>pinkong-gateway</module>
-        <module>pinkong-auth</module>
+        <module>jgj-common</module>
+        <module>jgj-base</module>
+        <module>jgj-demo</module>
+        <module>jgj-admin</module>
+        <module>jgj-search</module>
+        <module>jgj-portal</module>
+        <module>jgj-monitor</module>
+        <module>jgj-gateway</module>
+        <module>jgj-auth</module>
     </modules>
 
     <parent>
@@ -51,8 +51,8 @@
         <admin-starter-server.version>2.2.3</admin-starter-server.version>
         <knife4j.version>2.0.4</knife4j.version>
         <nimbus-jose-jwt.version>8.16</nimbus-jose-jwt.version>
-        <pinkong-common.version>1.0-SNAPSHOT</pinkong-common.version>
-        <pinkong-base.version>1.0-SNAPSHOT</pinkong-base.version>
+        <jgj-common.version>1.0-SNAPSHOT</jgj-common.version>
+        <jgj-base.version>1.0-SNAPSHOT</jgj-base.version>
     </properties>
 
     <dependencies>
@@ -102,17 +102,17 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--pinkong通用模块-->
+            <!--jgj通用模块-->
             <dependency>
-                <groupId>com.pinkong</groupId>
-                <artifactId>pinkong-common</artifactId>
-                <version>${pinkong-common.version}</version>
+                <groupId>com.jgj</groupId>
+                <artifactId>jgj-common</artifactId>
+                <version>${jgj-common.version}</version>
             </dependency>
-            <!--pinkong中base生成模块-->
+            <!--jgj中base生成模块-->
             <dependency>
-                <groupId>com.pinkong</groupId>
-                <artifactId>pinkong-base</artifactId>
-                <version>${pinkong-base.version}</version>
+                <groupId>com.jgj</groupId>
+                <artifactId>jgj-base</artifactId>
+                <version>${jgj-base.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
             <dependency>

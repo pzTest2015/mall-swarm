@@ -1,14 +1,14 @@
-启动网关服务pinkong-gateway，直接运行GatewayApplication的main函数即可；
+启动网关服务jgj-gateway，直接运行GatewayApplication的main函数即可；
 
-启动认证中心pinkong-auth，直接运行AuthApplication的main函数即可；
+启动认证中心jgj-auth，直接运行AuthApplication的main函数即可；
 
-启动后台管理服务pinkong-admin，直接运行AdminApplication的main函数即可；
+启动后台管理服务jgj-admin，直接运行AdminApplication的main函数即可；
 
-启动前台服务pinkong-portal，直接运行PortalApplication的main函数即可；
+启动前台服务jgj-portal，直接运行PortalApplication的main函数即可；
 
-启动搜索服务pinkong-search，直接运行SearchApplication的main函数即可；
+启动搜索服务jgj-search，直接运行SearchApplication的main函数即可；
 
-启动监控中心pinkong-monitor，直接运行MonitorApplication的main函数即可；
+启动监控中心jgj-monitor，直接运行MonitorApplication的main函数即可；
 
 
 运行完成后可以通过监控中心查看监控信息，账号密码为macro:123456：http://localhost:8101
@@ -16,16 +16,16 @@
 运行完成后可以直接通过如下地址访问API文档：http://localhost:8201/doc.html
 
 ``` lua
-pinkong
-├── pinkong-common -- 工具类及通用代码模块
-├── pinkong-base -- MyBatisGenerator生成的数据库操作代码模块
-├── pinkong-auth -- 基于Spring Security Oauth2的统一的认证中心
-├── pinkong-gateway -- 基于Spring Cloud Gateway的微服务API网关服务
-├── pinkong-monitor -- 基于Spring Boot Admin的微服务监控中心
-├── pinkong-admin -- 后台管理系统服务
-├── pinkong-search -- 基于Elasticsearch的商品搜索系统服务
-├── pinkong-portal -- 移动端商城系统服务
-├── pinkong-demo -- 微服务远程调用测试服务
+jgj
+├── jgj-common -- 工具类及通用代码模块
+├── jgj-base -- MyBatisGenerator生成的数据库操作代码模块
+├── jgj-auth -- 基于Spring Security Oauth2的统一的认证中心
+├── jgj-gateway -- 基于Spring Cloud Gateway的微服务API网关服务
+├── jgj-monitor -- 基于Spring Boot Admin的微服务监控中心
+├── jgj-admin -- 后台管理系统服务
+├── jgj-search -- 基于Elasticsearch的商品搜索系统服务
+├── jgj-portal -- 移动端商城系统服务
+├── jgj-demo -- 微服务远程调用测试服务
 └── config -- 配置中心存储的配置
 ```
 
